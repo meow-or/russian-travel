@@ -3,6 +3,8 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__header/page__header.css');
 @import url('../blocks/page/__lead/page__lead.css');
+@import url('../blocks/page/__intro/page__intro.css');
+@import url('../blocks/page/__photo-grid/page__photo-grid.css');
 
 /*                       header                         */
 
@@ -17,19 +19,40 @@
 
 /*                 section lead  [путешествия по России]       */
 
-
 @import url('../blocks/lead/lead.css');
 
 @import url('../blocks/lead/__title/lead__title.css');
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
 @import url('../blocks/lead/__image/lead__image.css');
-@import url('../blocks/lead/__caption/lead__caption.css');
 @import url('../blocks/lead/__figure/lead__figure.css');
-@import url('../blocks/lead/__figcaption/lead__figcaption.css');
+@import url('../blocks/lead/__caption/lead__caption.css');
 
 
+/*                 section Intro  [Чего мы там не видели?]       */
 
+@import url('../blocks/intro/intro.css');
+
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__text/intro__text.css');
+@import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__container/intro__container.css');
+@import url('../blocks/intro/__list-amount/intro__list-amount.css');
+
+/*                 section Photo-grid  [Галерея]       */
+
+@import url('../blocks/photo-grid/photo-grid.css');
+
+@import url('../blocks/photo-grid/__item/photo-grid__item.css');
 
 
 
 @import url('../blocks/footer/footer.css');
+
+/*
+$ mkdir intro && cd intro && touch intro.css 
+&& mkdir __title && cd __title && touch intro__title.css && cd .. 
+&& mkdir __text && cd __text && touch intro__text.css && cd .. 
+&& mkdir __list && cd __list && touch intro__list.css && cd ..
+
+
+*/
