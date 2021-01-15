@@ -18,9 +18,6 @@
   font-weight: 900;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
 
 .page {
   background: #2A2C2F;
@@ -46,13 +43,3 @@
 }
 
 
-
-/* в разработке
-
-@media all and (max-width: 319px) {
-  .page {
-    padding: 0;
-    
-  }
-}
-*/
