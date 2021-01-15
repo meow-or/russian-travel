@@ -90,39 +90,3 @@
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 
-/*
-$ mkdir cover && cd cover && touch cover.css && mkdir __title && cd __title && touch cover__title.css && cd .. && mkdir __subtitle && cd __subtitle && touch cover__subtitle.css && cd .. && mkdir __overlay && cd __overlay && touch cover__overlay.css && cd .. && mkdir __background && cd __background && touch cover__background.css && cd .. && mkdir __paragraph && cd __paragraph && touch places__paragraph.css && cd .. && mkdir __link && cd __link && touch places__link.css && cd ..
-
-*/
-
-
-/*
-
-@media screen and (min-width: 1280px)  {
-  . {
-    
-  }
-}
-
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  . {
-    
-  }
-}
-
-@media all and (min-width: 768px) and (max-width: 1023px) {
-  . {
-    
-  }
-}
-
-@media all and (min-width: 320px) and (max-width: 767px) {
-  . {
-    
-  }
-}
-
-
-
-*/
