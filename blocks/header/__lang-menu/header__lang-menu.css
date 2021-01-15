@@ -21,10 +21,13 @@
   }
 }
 
-@media all and (max-width: 320px) {
+/*в разработке
+@media all and (max-width: 319px) {
   .header__lang-menu {
     height: 20px;
     width: 62px;
     margin-top: 20px; 
   }
 }
+
+*/

@@ -1,0 +1,155 @@
+.cover__link {
+  
+  max-width: 100%;
+  min-height: 740px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #fff;
+  text-decoration: none;
+
+  position: relative;
+  z-index: 2;
+
+  /*border: rgb(192, 12, 192) 1px solid;*/
+}
+
+
+
+@media screen and (min-width: 1280px)  {
+  .cover__link {
+    min-height: 740px;
+  }
+}
+
+
+@media screen and (min-width: 1167px) and (max-width: 1215px) {
+  .cover__link {
+    min-height: 730px;
+  }
+}
+
+@media screen and (min-width: 1119px) and (max-width: 1166px) {
+  .cover__link {
+    min-height: 700px;
+  }
+}
+
+
+@media screen and (min-width: 1072px) and (max-width: 1119px) {
+  .cover__link {
+    min-height: 670px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1071px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+
+@media screen and (min-width: 976px) and (max-width: 1023px) {
+  .cover__link {
+    min-height: 610px;
+  }
+}
+
+@media screen and (min-width: 928px) and (max-width: 975px) {
+  .cover__link {
+    min-height: 580px;
+  }
+}
+
+@media screen and (min-width: 880px) and (max-width: 927px) {
+  .cover__link {
+    min-height: 550px;
+  }
+}
+
+
+@media screen and (min-width: 832px) and (max-width: 879px) {
+  .cover__link {
+    min-height: 520px;
+  }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 831px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media all and (min-width: 720px) and (max-width: 767px) {
+  .cover__link {
+    min-height: 450px;
+  }
+}
+
+
+@media all and (min-width: 672px) and (max-width: 719px) {
+  .cover__link {
+    min-height: 420px;
+  }
+}
+
+
+@media all and (min-width: 624px) and (max-width: 671px) {
+  .cover__link {
+    min-height: 390px;
+  }
+}
+
+
+@media all and (min-width: 576px) and (max-width: 623px) {
+  .cover__link {
+    min-height: 360px;
+  }
+}
+
+
+@media all and (min-width: 528px) and (max-width: 575px) {
+  .cover__link {
+    min-height: 330px;
+  }
+}
+
+
+@media all and (min-width: 464px) and (max-width: 527px) {
+  .cover__link {
+    min-height: 290px;
+  }
+}
+
+
+@media all and (min-width: 416px) and (max-width: 463px) {
+  .cover__link {
+    min-height: 260px;
+  }
+}
+
+
+@media all and (min-width: 368px) and (max-width: 415px) {
+  .cover__link {
+    min-height: 230px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 367px) {
+  .cover__link {
+    min-height: 200px;
+  }
+}
+
+
+@media all and (min-width: 320px) and (max-width: 1279px) {
+  .cover__link {
+    width: 100%;
+    
+  }
+}
+

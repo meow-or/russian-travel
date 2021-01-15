@@ -1,0 +1,22 @@
+.footer__resources-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .footer__resources-links {
+    flex-direction: column;
+  }
+
+
+  .footer__resources-links li:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  
+}

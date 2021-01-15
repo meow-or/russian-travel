@@ -1,10 +1,17 @@
 @import url('../vendor/normalize.css');
 
 @import url('../blocks/page/page.css');
+
+@import url('../blocks/content/content.css');
+
+/*                  отступы                */
 @import url('../blocks/page/__header/page__header.css');
 @import url('../blocks/page/__lead/page__lead.css');
 @import url('../blocks/page/__intro/page__intro.css');
 @import url('../blocks/page/__photo-grid/page__photo-grid.css');
+@import url('../blocks/page/__places/page__places.css');
+@import url('../blocks/page/__cover/page__cover.css');
+@import url('../blocks/page/__footer/page__footer.css');
 
 /*                       header                         */
 
@@ -44,15 +51,78 @@
 
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
 
+/*                 section Places  [Карточки]       */
+
+@import url('../blocks/places/places.css');
+
+@import url('../blocks/places/__list/places__list.css');
+@import url('../blocks/places/__list-item/places__list-item.css');
+
+@import url('../blocks/place/place.css');
+
+@import url('../blocks/place/__text-content/place__text-content.css');
+
+
+@import url('../blocks/place/__title/place__title.css');
+@import url('../blocks/place/__image/place__image.css');
+@import url('../blocks/place/__website/place__website.css');
+@import url('../blocks/place/__url-heading/place__url-heading.css');
+@import url('../blocks/place/__link/place__link.css');
+@import url('../blocks/place/__paragraph/place__paragraph.css');
+
+/*                 section Cover  [До Байкала на собаках]       */
+
+@import url('../blocks/cover/cover.css');
+
+@import url('../blocks/cover/__background/cover__background.css');
+@import url('../blocks/cover/__overlay/cover__overlay.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__subtitle/cover__subtitle.css');
+@import url('../blocks/cover/__link/cover__link.css');
+
+
 
 
 @import url('../blocks/footer/footer.css');
 
+@import url('../blocks/footer/__resources/footer__resources.css');
+@import url('../blocks/footer/__resources-links/footer__resources-links.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
+
 /*
-$ mkdir intro && cd intro && touch intro.css 
-&& mkdir __title && cd __title && touch intro__title.css && cd .. 
-&& mkdir __text && cd __text && touch intro__text.css && cd .. 
-&& mkdir __list && cd __list && touch intro__list.css && cd ..
+$ mkdir cover && cd cover && touch cover.css && mkdir __title && cd __title && touch cover__title.css && cd .. && mkdir __subtitle && cd __subtitle && touch cover__subtitle.css && cd .. && mkdir __overlay && cd __overlay && touch cover__overlay.css && cd .. && mkdir __background && cd __background && touch cover__background.css && cd .. && mkdir __paragraph && cd __paragraph && touch places__paragraph.css && cd .. && mkdir __link && cd __link && touch places__link.css && cd ..
+
+*/
+
+
+/*
+
+@media screen and (min-width: 1280px)  {
+  . {
+    
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  . {
+    
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  . {
+    
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  . {
+    
+  }
+}
+
 
 
 */
