@@ -3,13 +3,13 @@
 }
 
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (max-width: 1023px) {
   .page__photo-grid {
     margin: 88px auto 0;
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (max-width: 767px) {
   .page__photo-grid {
     margin: 64px auto 0;
   }
