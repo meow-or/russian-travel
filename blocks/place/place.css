@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: 4.6fr 4.84fr;
   grid-template-rows: auto minmax(min-content, max-content);
   
   gap: 48px 40px;
@@ -14,18 +14,16 @@
   margin-bottom: 80px;
 }
 
-
-
 @media screen and (max-width: 1279px) {
   .place {
-    grid-template-columns: 440px 456px;
+    grid-template-columns: 4.4fr 4.56fr;
     gap: 48px 32px;
   }
 }
 
 @media all and (max-width: 1023px) {
   .place {
-    grid-template-columns: 340px 352px;
+    grid-template-columns: 3.4fr 3.52fr;
     gap: 48px 28px;
   }
 
