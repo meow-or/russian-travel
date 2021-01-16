@@ -1,0 +1,8 @@
+
+@media all and (max-width: 767px) {
+  
+  .footer__resources-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  
+}

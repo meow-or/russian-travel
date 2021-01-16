@@ -1,23 +1,14 @@
 .header__logo {
-  width: 176px; 
+  width: 176px;
   height: 100%;
   margin-right: auto;
 }
 
 
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (max-width: 767px) {
   .header__logo {
     width: 142px;
     
   }
 }
 
-/*   в разработке  
-
-@media all and (max-width: 319px) {
-  .header__logo {
-    
-  }
-}
-
- */
