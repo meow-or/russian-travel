@@ -7,9 +7,6 @@
   transition: opacity .5s linear;
 }
 
-.header__lang-link:first-of-type {
-  margin-right: 18px;
-}
 
 .header__lang-link:hover {
   opacity: .6;
